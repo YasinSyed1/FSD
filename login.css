@@ -1,0 +1,19 @@
+button{
+    border-radius: 5px;
+}
+.f-login{
+    text-align: center;
+    background-color: rgb(192, 189, 189);
+    width: max-content;
+    padding: 25px;
+    margin-inline: auto;
+    margin-top: 35vh;
+    border-radius: 10px;
+    border: 2px solid;
+}
+.f-page1{
+    width: 100%;
+}
+.f-bg{
+    background-image: url("assets\\background-login.jpeg");
+}

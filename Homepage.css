@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.title{
+    text-align: left;
+    display: inline;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    /* padding: 20px 0; */
+}
+
+h2 {
+    margin: 20px;
+}
+
+nav {
+    /* padding: 10px; */
+    position: relative;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #818080;
+    border-radius: 5px;
+}
+
+.profile {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.profile a {
+    color: white;
+    font-size: 24px;
+}
+
+.profile a:hover {
+    color: #bbb;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product p {
+    margin: 15px 0;
+    color: #555;
+}
+
+.product p.price {
+    font-size: 18px;
+    color: #868686;
+    font-weight: bold;
+}
+
+.product button {
+    background-color: #636465;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: #141515;
+}
+
+
+.f-heading{
+    background-color: #bfbfbf;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.shopy{
+    font-family: papyrus;
+}
+
+.f-icon{
+    scale: 2;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.f-btn {
+    padding: 10px;
+    margin: 10px;
+    width: 12.5%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #767373;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.f-btn:hover {
+    background-color: black;
+}
+
+.full {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+    background-color: #8f8d8d;
+
+    /* background-image: url("assets\\background-login.jpeg"); */
+    padding: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+
+    /* height: ; */
+}

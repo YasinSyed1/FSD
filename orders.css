@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    /* padding: 10px; */
+    position: relative;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #818080;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #bfbfbf;
+}
+.status {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+}
+.status-pending {
+    background-color: orange;
+}
+.status-shipped {
+    background-color: blue;
+}
+.status-delivered {
+    background-color: green;
+}
+.view-details {
+    color: #007bff;
+    text-decoration: none;
+}
+.view-details:hover {
+    text-decoration: underline;
+}
+
+.f-heading{
+    background-color: #bfbfbf;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.f-icon{
+    scale: 2;
+    margin-left: 15px;
+    margin-top: 20px;
+}

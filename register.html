@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <!-- <canvas></canvas> -->
+    <div class="full">
+        <form action="/login.html" method="get">
+            First Name: <input type="text" name="fname" id="fname" required minlength="3"><br><br>
+            Last Name: <input type="text" name="lname" id="lname" required minlength="3"><br><br>
+            Age: <input type="number" name="age" id="age" required><br><br>
+            DOB: <input type="date" id="dob" name="dob" required><br><br>
+
+            Username: <input type="text" id="uname" name="uname" required minlength="3"><br><br>
+            Password: <input type="password" id="pw" name="pw" required minlength="6">
+            Confirm Password: <input type="password" id="cpw" name="cpw" required minlength="6"><br><br>
+
+            e-mail: <input type="email" required><br><br>
+            Mobile Number: <input type="number" name="mob_num" id="mob_num" required pattern="[1-9]{1}[0-9]{9}"><br><br>
+
+            Gender: <input type="radio" name="radio" value="Male" id="gender1" >M
+            <!-- <label for="gender1">M</label> -->
+            <input type="radio" name="radio" value="Female" id="gender2" >F
+            <!-- <label for="gender2">F</label> -->
+            <input type="radio" name="radio" value="others" id="gender3">Others<br><br>
+            <!-- <label for="gender3">Others</label><br> -->
+
+            <br><br>
+            <input type="submit" value="submit" class="f-btn">
+            <input type="reset" value="reset" class="f-btn">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

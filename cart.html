@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Shopping Cart - Shopping Kart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <div  class="f-heading">
+        <i class="fa-brands fa-shopify f-icon"></i>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="orders.html">Orders</a>
+            <a href="cart.html">Cart</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Sign Out</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h2>Your Cart</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>Rs. 611199.00</td>
+                    <td><input type="number" class="quantity" value="1" min="1"></td>
+                    <td>Rs. 699000.00</td>
+                    <td><span class="remove-item">Remove</span></td>
+                </tr>
+                <tr>
+                    <td>Headphones</td>
+                    <td>Rs. 21169.00</td>
+                    <td><input type="number" class="quantity" value="2" min="1"></td>
+                    <td>Rs. 22198.00</td>
+                    <td><span class="remove-item">Remove</span></td>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Rs. 21169.00</td>
+                    <td><input type="number" class="quantity" value="1" min="1"></td>
+                    <td>Rs. 1,299.00</td>
+                    <td><span class="remove-item">Remove</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="total">
+            <p>Total Amount: <strong>Rs. 2,196.00</strong></p>
+        </div>
+
+        <div class="checkout">
+            <a href="#">Proceed to Checkout</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

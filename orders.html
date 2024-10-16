@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="orders.css">
+    <title>My Orders - Shopping Kart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="f-heading">
+        <i class="fa-brands fa-shopify f-icon"></i>
+        <h1>My Orders</h1>
+        <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="orders.html">Orders</a>
+            <a href="cart.html">Cart</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Sign Out</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h2>Order History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Date</th>
+                    <th>Items</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#12345</td>
+                    <td>September 10, 2024</td>
+                    <td>Smartphone, Headphones</td>
+                    <td>Rs. 122899.00</td>
+                    <td><span class="status status-pending">Pending</span></td>
+                    <td><a href="#" class="view-details">View Details</a></td>
+                </tr>
+                <tr>
+                    <td>#12344</td>
+                    <td>August 28, 2024</td>
+                    <td>Laptop</td>
+                    <td>Rs. 111,199.00</td>
+                    <td><span class="status status-shipped">Shipped</span></td>
+                    <td><a href="#" class="view-details">View Details</a></td>
+                </tr>
+                <tr>
+                    <td>#12343</td>
+                    <td>August 12, 2024</td>
+                    <td>Tablet, Bluetooth Speaker</td>
+                    <td>Rs. 49999.00</td>
+                    <td><span class="status status-delivered">Delivered</span></td>
+                    <td><a href="#" class="view-details">View Details</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Track Your Orders</h2>
+        <p>Enter your Order ID below to track the status of your order:</p>
+        <form action="#" method="GET">
+            <label for="order-id">Order ID:</label>
+            <input type="text" id="order-id" name="order-id" required>
+            <input type="submit" value="Track Order">
+        </form>
+    </div>
+
+
+</body>
+</html>
